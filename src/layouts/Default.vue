@@ -1,8 +1,10 @@
 <template>
   <div class="layout">
-    <header class="header">
+    <header class="background">
       <strong>
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
+        <g-link to="/about">Hello</g-link>
+        <g-link to="/hello-world">Hello world</g-link>
       </strong>
       <nav class="nav">
         <g-link class="nav__link" to="/">Home</g-link>
@@ -22,6 +24,9 @@ query {
 </static-query>
 
 <style>
+.background {
+  background-color: green;
+}
 body {
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   margin:0;
