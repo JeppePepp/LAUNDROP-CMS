@@ -17,7 +17,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "Hello, world! It is a fun experince to work with Jesper!! hi rashed!"
+    title: "Hello, world! It is a fun experince to work with Jesper!! hi rashed!..Yes I also think so."
   }
 };
 </script>
