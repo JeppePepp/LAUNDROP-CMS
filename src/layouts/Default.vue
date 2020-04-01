@@ -3,8 +3,9 @@
     <header class="background">
       <strong>
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-        <g-link to="/about">Hello</g-link>
-        <g-link to="/hello-world">Hello world</g-link>
+        <!-- <g-link to="/about">Hello</g-link>
+        <g-link to="/hello-world">Hello world</g-link> -->
+        <g-link to="/First-Assignment"> First Assignment</g-link>
       </strong>
       <nav class="nav">
         <g-link class="nav__link" to="/">Home</g-link>
