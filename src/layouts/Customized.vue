@@ -25,8 +25,13 @@
                 <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
                     <div class="text-sm lg:flex-grow">
                         
+<<<<<<< HEAD
                         <g-link class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4 " to="/stockholm">
                         <select class="bg-primary font-semibold">
+=======
+                        <g-link class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" to="/stockholm">
+                        <select class="bg-primary">
+>>>>>>> 87d6aa35187bc15d62344c8848617dea7ea4e6b1
                             <option>Stockholm</option>
                             <option>Sundsvall</option>
                             <option>Uppsala</option>
@@ -39,7 +44,8 @@
                     <div>
                         <a
                         href="#"
-                        class="inline-block text-sm px-4 py-2 leading-none border rounded-full text-white border-pink-500 hover:border-transparent hover:text-teal-600 hover:bg-white mt-4 lg:mt-0 bg-pink-500"
+                        class="inline-block text-sm px-4 py-2 leading-none border rounded-full 
+                        text-white border-pink-500 hover:border-transparent hover:text-teal-600 hover:bg-white mt-4 lg:mt-0 bg-pink-500"
                         >BOKA UPPHÄMTANING</a
                         >
                     </div>
