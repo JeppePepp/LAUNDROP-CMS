@@ -3,9 +3,10 @@
         <div class="text-3xl font-semibold flex items-center justify-center">
             <Topic :topic='topic'/>
         </div>
-        <div class="px-64 ml-64 text-sm">
+        <div class="paragraph text-sm">
             Posted by Laundrop <br> Apil 22, 2020 / Stockholm <br>4 min read
         </div>
+        <g-image class="w-8/12 h-2/3 ml-64" src="~/assets/images/cleaning cloth.jpg"></g-image>
         
     </CustomizedLayout>
     
