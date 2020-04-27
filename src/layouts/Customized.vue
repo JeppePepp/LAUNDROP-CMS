@@ -24,16 +24,13 @@
                 </div>
                 <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
                     <div class="text-sm lg:flex-grow">
-                        
                         <g-link class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" to="/stockholm">
                         <select class="bg-primary">
                             <option>Stockholm</option>
                             <option>Sundsvall</option>
                             <option>Uppsala</option>
                         </select>
-                        
                         </g-link>
-                        
                         <g-link class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" to="/kontakt">Kontakt</g-link>
                     </div>
                     <div>
@@ -50,13 +47,9 @@
         <slot />
     </div>
 </template>
-
 <script>
     export default {
-        
     }
 </script>
-
 <style lang="scss" scoped>
-
 </style>
