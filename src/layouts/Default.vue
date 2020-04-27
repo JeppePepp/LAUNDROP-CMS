@@ -27,6 +27,7 @@
             <g-link class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" to="/">Home</g-link>
             <g-link class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" to="/about">About</g-link>
             <g-link class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" to="/Laundrop">Corona Crisis</g-link>
+            <g-link class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" to="/Custom">Custom</g-link>
           </div>
           <div>
             <a
