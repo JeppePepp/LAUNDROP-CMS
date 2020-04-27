@@ -11,7 +11,7 @@
                         stroke-width="1"
                         />
                     </svg>
-                    <span class="font-semibold text-xl tracking-tight">LAUNDROP</span>
+                    <span class="font-bold text-xl tracking-tight">LAUNDROP</span>
                     <sup class="text-s">Blog</sup>
                 </div>
                 <div class="block lg:hidden">
@@ -25,8 +25,8 @@
                 <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
                     <div class="text-sm lg:flex-grow">
                         
-                        <g-link class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-black mr-4" to="/stockholm">
-                        <select class="bg-primary">
+                        <g-link class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4 " to="/stockholm">
+                        <select class="bg-primary font-semibold">
                             <option>Stockholm</option>
                             <option>Sundsvall</option>
                             <option>Uppsala</option>
@@ -34,7 +34,7 @@
                         
                         </g-link>
                         
-                        <g-link class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" to="/kontakt">Kontakt</g-link>
+                        <g-link class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4 font-semibold" to="/kontakt">Kontakt</g-link>
                     </div>
                     <div>
                         <a
