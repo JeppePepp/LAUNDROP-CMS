@@ -11,7 +11,8 @@
                         stroke-width="1"
                         />
                     </svg>
-                    <span class="font-semibold text-xl tracking-tight">Laundrop CSS</span>
+                    <span class="font-semibold text-xl tracking-tight">LAUNDROP</span>
+                    <sup class="text-s">Blog</sup>
                 </div>
                 <div class="block lg:hidden">
                     <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
@@ -23,18 +24,23 @@
                 </div>
                 <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
                     <div class="text-sm lg:flex-grow">
-                        <g-link class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" to="/">Home</g-link>
-                        <g-link class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" to="/about">About</g-link>
-                        <g-link class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" to="/Laundrop">Corona Crisis</g-link>
-                        <g-link class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" to="/">Home</g-link>
-                        <g-link class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" to="/about">About</g-link>
-                        <g-link class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" to="/Laundrop">Corona Crisis</g-link>
+                        
+                        <g-link class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-black mr-4" to="/stockholm">
+                        <select class="bg-primary">
+                            <option>Stockholm</option>
+                            <option>Sundsvall</option>
+                            <option>Uppsala</option>
+                        </select>
+                        
+                        </g-link>
+                        
+                        <g-link class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" to="/kontakt">Kontakt</g-link>
                     </div>
                     <div>
                         <a
                         href="#"
-                        class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0"
-                        >Download</a
+                        class="inline-block text-sm px-4 py-2 leading-none border rounded-full text-white border-pink-500 hover:border-transparent hover:text-teal-600 hover:bg-white mt-4 lg:mt-0 bg-pink-500"
+                        >BOKA UPPHÄMTANING</a
                         >
                     </div>
                 </div>
