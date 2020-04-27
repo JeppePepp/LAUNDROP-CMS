@@ -1,7 +1,7 @@
 <template>
   <layout :style="image" class="color">
     <g-image class="object-cover h-2/3" src="~/assets/images/happy_moutain.jpg"></g-image>
-    <h1 class="test">Infection Prevention from Corona Virus</h1>
+    <h1 class="test">Infectio n Prevention from Corona Virus</h1>
     <!-- <g-image alt="Wash your hand" src="~/coronovirus.png" class="picture" /> -->
 
     <ul v-for="(description, index) in descriptionList" :key="index">
