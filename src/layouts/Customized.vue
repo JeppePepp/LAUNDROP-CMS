@@ -44,9 +44,7 @@
                 </div>
             </nav>
         </header>
-        <footer>
-            
-        </footer>
+        
         <slot />
     </div>
 </template>
