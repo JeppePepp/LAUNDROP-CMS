@@ -1,18 +1,21 @@
 <template>
     <div>
-        <h1>{{topic}}</h1>
+        <p>{{description}}</p>
     </div>
-    
 </template>
+
 <script>
     export default {
         props: {
-            topic: {
+            description: {
                 type: String,
                 default: 'Send it to me' 
             }
         }
+        
     }
 </script>
+
 <style lang="scss" scoped>
+
 </style>
