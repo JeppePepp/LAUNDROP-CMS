@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>{{topic}}</h1>
+        <h1 >{{topic}}</h1>
     </div>
     
 </template>

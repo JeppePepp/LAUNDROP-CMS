@@ -1,13 +1,13 @@
 <template>
     <CustomizedLayout>
-        <div class="text-3xl font-semibold flex items-center justify-center mx-auto container">
+        <div class="text-3xl font-semibold flex items-center justify-center mx-auto container sm:items-center justify-center">
             <Topic :topic='topic'/>
         </div>
-        <div class="paragraph text-sm">
+        <div class="flex items-center justify-center text-sm">
             Posted by Laundrop <br> Apil 22, 2020 / Stockholm <br>4 min read
         </div>
 
-        <g-image class=" mt-4 w-8/12 h-2/3 ml-64" src="~/assets/images/cleaning cloth.jpg"></g-image>
+        <g-image class="mt-4 w-8/12 h-2/3 ml-64" src="~/assets/images/cleaning cloth.jpg"></g-image>
 
         <div class="ml-64 mr-64 mt-4 text-justify">
             <TextInput :description = 'description'/>
